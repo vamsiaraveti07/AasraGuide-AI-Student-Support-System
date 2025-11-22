@@ -314,16 +314,23 @@ A specialized AI module designed to simplify exam preparation.
  
 ## 🧾 Version Information
      
-| Component                    Version         |
-| ---------------------- | ------------------- |
-| AasraGuide System      | v1.0.0              |
-| Backend (Flask)        | 2.x                 |
-| Frontend (HTML/CSS/JS) | Stable              |
-| Database               | SQLite 3            |
-| Python                 | 3.8+                |
-| AI Integration         | OpenAI API Ready    |
-| Last Updated           | Nov 2025            |
-| Status                 | Active & Stable     |
+### Component                       ### Version        
+
+AasraGuide System                        v1.0.0   
+
+Backend (Flask)                          2.x   
+
+Frontend (HTML/CSS/JS)                   Stable
+
+Database                                 SQLite 3 
+
+Python                                   3.8+   
+
+AI Integration                           OpenAI API Ready  
+
+Last Updated                             Nov 2025    
+
+Status                                   Active & Stable     
 
 ## 📞 Enquiry & Support
    Need help, facing issues, or want new features?
