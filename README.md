@@ -12,12 +12,19 @@ AasraGuide includes 5 core modules, each engineered to deliver a premium, reliab
    A powerful, rich-text notes system built for fast academic writing.
  ### Key Capabilities
   • Key Capabilities
+  
   • Rich Editor with bold, highlight, formatting
+  
   • Instant Highlighting using custom marker colors
+  
   • Image & File Attachments inside notes
+  
   • Preview in Lightbox (click to zoom images)
+  
   • Tags Support for organizing subjects
+  
   • Auto-save & Instant Update
+  
 Impact
 Enables quick concept capturing, fast revisions, and visually enriched study notes.
 
