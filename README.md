@@ -1,4 +1,4 @@
-# AasraGuide - AI StudentSupportSystem
+# AasraGuide - AI Student Support System
 
 A next-generation academic assistance platform designed to organize student life, boost productivity, and provide intelligent study support.
 AasraGuide integrates multiple powerful learning tools — AI chat, smart notes, assignment planner, Pomodoro timer, and exam preparation assistant — into one seamless system.
@@ -100,10 +100,13 @@ A specialized AI module designed to simplify exam preparation.
 ## 📂 System Architecture
    AasraGuide AI
    │
+   
    ├── __pycache__/                         // Python cache
    │
+   
    ├── instance/
    │
+   
    ├── static/
    │     ├── icons/
    │     │     ├── Assignment.png
