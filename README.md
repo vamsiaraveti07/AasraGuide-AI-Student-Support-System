@@ -98,109 +98,50 @@ A specialized AI module designed to simplify exam preparation.
    Acts as a virtual tutor available anytime.
 
 ## 📂 System Architecture
-   AasraGuide AI
-   
-   │
-   
-   ├── __pycache__/                         // Python cache
-   │
-   
-   ├── instance/
-   │
-   
-   ├── static/
-   
-   │     ├── icons/
-   
-   │     │     ├── Assignment.png
-   
-   │     │     ├── bot.png
-   
-   │     │     ├── Exam.png
-   
-   │     │     ├── notes.png
-   
-   │     │     ├── pomo.png
-   
-   │     │     ├── pomo.svg
-   
-   │     │     ├── send.png
-   
-   │     │     └── user.png
-   
-   │     │
-   
-   │     ├── images/
-   
-   │     │
-   
-   │     ├── uploads/
-   
-   │     │     └── notes/ 
-   
-   // Uploaded note files
-   
-   │     │
-   
-   │     ├── chat.css
-   
-   │     ├── sidebar.css
-   
-   │     ├── style.css
-   
-   │     │
-   
-   │     ├── chatgpt.js
-   
-   │     ├── exam_helper.js
-   
-   │     ├── feature_assignments.js
-   
-   │     ├── notes.js
-   
-   │     ├── pomodoro.js
-   
-   │     └── sidebar.js
-   │
-   
-   ├── templates/
-   
-   │     ├── fragments/
-   
-   │     │     ├── assignments.html
-   
-   │     │     ├── exam_helper.html
-   
-   │     │     ├── notes.html
-   
-   │     │     └── pomodoro.html
-   
-   │     │
-   │     ├── base.html
-   
-   │     ├── chat.html
-   
-   │     ├── login.html
-   
-   │     └── register.html
-   │
-   
-   ├── venv/
-   │
-   ├── ai_engine.py
-   
-   ├── app.py
-   
-   ├── config.py
-   
-   ├── db.py
-   
-   ├── models.py
-   
-   ├── utils_emotion.py
-   
-   └── requirements.txt
-   
+        AasraGuide-AI/
+      │
+      ├── app.py                  # Main Flask application
+      ├── ai_engine.py            # AI logic (chat assistant, responses)
+      ├── models.py               # Database models
+      ├── db.py                   # Database initialization and helpers
+      ├── config.py               # App configuration
+      ├── utils_emotion.py        # Emotion / sentiment-related utilities
+      ├── requirements.txt        # Project dependencies
+      │
+      ├── instance/               # Instance-specific configs (Flask)
+      ├── venv/                   # Virtual environment
+      │
+      ├── static/
+      │   ├── icons/              # UI icons (notes, exams, bot, pomodoro, etc.)
+      │   ├── images/             # Static images
+      │   ├── uploads/
+      │   │   └── notes/          # Uploaded note files
+      │   │
+      │   ├── style.css           # Global styles
+      │   ├── sidebar.css         # Sidebar styling
+      │   ├── chat.css            # Chat UI styling
+      │   │
+      │   ├── sidebar.js          # Sidebar interactions
+      │   ├── chatgpt.js          # AI chat frontend logic
+      │   ├── notes.js            # Notes feature logic
+      │   ├── exam_helper.js      # Exam helper functionality
+      │   ├── feature_assignments.js
+      │   └── pomodoro.js         # Pomodoro timer logic
+      │
+      ├── templates/
+      │   ├── base.html           # Base layout
+      │   ├── login.html          # Login page
+      │   ├── register.html       # Registration page
+      │   ├── chat.html           # AI chat interface
+      │   │
+      │   └── fragments/          # Modular feature templates
+      │       ├── notes.html
+      │       ├── assignments.html
+      │       ├── exam_helper.html
+      │       └── pomodoro.html
+      │
+      └── __pycache__/             # Python cache files
+
 ## 🗄️ Database Schema
    ### Users
    
